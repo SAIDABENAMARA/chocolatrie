@@ -261,6 +261,9 @@ a:hover>i {
     width: 70%;
     margin-bottom: auto;
     margin-top: auto;
+    object-fit:cover ;
+    border: 3px solid black
+
 
 }
 /*carte de produits*/
@@ -269,6 +272,9 @@ a:hover>i {
     border-radius: 20px;
     padding: 20px;
     width: 60px;
+    object-fit:cover ;
+    border: 3px solid black
+
 
 }
 /*carte histoire*/
@@ -279,10 +285,45 @@ a:hover>i {
     width: 80%;
     margin-bottom: auto;
     margin-top: auto;
+    object-fit:cover ;
+    border: 3px solid black
+
 }
 
+.cartecontacternouus{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.215);
+    border-radius: 20px;
+    padding: 25px;
+    width: 30%;
+    margin-bottom: auto;
+    margin-top: auto;
+    object-fit:cover ;
+    border: 3px solid black
 
+}
+.cartesuivernous{
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.215);
+    border-radius: 20px;
+    padding: 25px;
+    width: 20%;
+    margin-bottom: auto;
+    margin-top: auto;
+    object-fit:cover ;
+    border: 3px solid black
 
+}
+.cartetitrebutton{
+   box-shadow: 5px 5px 10px rgba(72, 61, 61, 0.215);
+    border-radius: 20px;
+    padding: 25px;
+    width: 30%;
+    margin-bottom: auto;
+    margin-top: auto;
+    object-fit:cover ;
+    border: 3px solid black
+
+   
+}
 .img{
   width: 33%;
   border-radius: 10px;
