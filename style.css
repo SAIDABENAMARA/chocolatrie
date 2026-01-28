@@ -2,9 +2,9 @@
 
 
 * {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
 
@@ -13,16 +13,18 @@
 
 /*class de flexbox*/
 .container-1000 {
-    max-width: 1000px;
-    
-    margin-left: auto;
-    margin: auto;
-    width: 100%;
+  max-width: 1000px;
+
+  margin-left: auto;
+  margin: auto;
+  width: 100%;
 
 }
-.flex{
-    display: flex;
+
+.flex {
+  display: flex;
 }
+
 .flex2 {
   display: flex;
   flex-wrap: wrap;
@@ -39,9 +41,11 @@
 .justify-between {
   justify-content: space-between;
 }
-.space-between{
-    justify-content: space-between;
+
+.space-between {
+  justify-content: space-between;
 }
+
 .justify-around {
   justify-content: space-around;
 }
@@ -69,64 +73,82 @@
 .gap {
   gap: var(--gap);
 }
-.gap12{
+
+.gap12 {
   gap: 12px;
 }
-.gap20{
-    gap: 20px;
+
+.gap20 {
+  gap: 20px;
 }
+
 /*class de largeur*/
-.w40{
-    width: 40%;
+.w40 {
+  width: 40%;
 }
+
 .w100 {
-width: 100%;
+  width: 100%;
 }
-.w{
-    width: 100px;
+
+.w {
+  width: 100px;
 }
+
 .w48 {
-    width: 48%;
+  width: 48%;
 }
+
 .w50 {
-width: 50%;
+  width: 50%;
 }
+
 .w33 {
-width: 33px;
+  width: 33px;
 }
-.w22{
-width: 22%;
+
+.w22 {
+  width: 22%;
 }
-.w25{
-    width: 25%;
+
+.w25 {
+  width: 25%;
 }
-.w68{
-    width: 68%;
+
+.w68 {
+  width: 68%;
 }
+
 .space-between {
-    justify-content: space-between;
+  justify-content: space-between;
 
 
 
 }
-.space-around{
-    justify-content: space-around;
-  
+
+.space-around {
+  justify-content: space-around;
+
 }
+
 .margin-top {
-        margin-top: 80px;
+  margin-top: 80px;
 }
+
 .margin-top-20 {
-        margin-top: 20px;
+  margin-top: 20px;
 }
-.margin-bottom{
-    margin-bottom: 20px;
+
+.margin-bottom {
+  margin-bottom: 20px;
 }
-.align-center{
-    align-items: center;
+
+.align-center {
+  align-items: center;
 }
-.font-size{
-font-size:14px;
+
+.font-size {
+  font-size: 14px;
 }
 
 
@@ -145,9 +167,11 @@ p,
   color: var(--premier-plan);
   font-weight: bold;
 }
-.align-center{
-    align-items: center;
+
+.align-center {
+  align-items: center;
 }
+
 h1 {
   font-size: 38px;
 }
@@ -177,6 +201,7 @@ a {
 .text-center {
   text-align: center;
 }
+
 /*margin au padding*/
 .mt {
   margin-top: 64px;
@@ -185,7 +210,8 @@ a {
 .mt {
   margin-top: 32px;
 }
-.mt{
+
+.mt {
   margin-top: 16px;
 }
 
@@ -193,7 +219,7 @@ a {
   margin-top: 100px;
 }
 
-.m-auto{
+.m-auto {
   margin-left: auto;
   margin-right: auto;
 }
@@ -218,9 +244,11 @@ header {
   z-index: 999;
   width: 100%;
 }
-.logo{
-    width: 160px;
+
+.logo {
+  width: 160px;
 }
+
 header nav {
   display: flex;
   gap: 16px;
@@ -236,127 +264,122 @@ a:hover,
 a:hover>i {
   color: var(--hover)
 }
+
 /*section hero*/
 .hero {
-    background-image: url(asset/Brown\ chocolates\ realistic\ art.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+  background-image: url(asset/Brown\ chocolates\ realistic\ art.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
+
 .image {
-    background-image: url(asset/image\ 4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 90vh;
+  background-image: url(asset/image\ 4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
 }
 
 /*carte*/
 /*carte de client et benifice*/
 .carte {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.215);
-    border-radius: 20px;
-    padding: 25px;
-    width: 70%;
-    margin-bottom: auto;
-    margin-top: auto;
-    object-fit:cover ;
-    border: 3px solid black
-
-
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.215);
+  border-radius: 20px;
+  padding: 25px;
+  width: 70%;
+  margin-bottom: auto;
+  margin-top: auto;
+  object-fit: cover;
+  border: 3px solid black
 }
+
 /*carte de produits*/
 .cart {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.215);
-    border-radius: 20px;
-    padding: 20px;
-    width: 60px;
-    object-fit:cover ;
-    border: 3px solid black
-
-
-}
-/*carte histoire*/
-.car{
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.215);
-    border-radius: 20px;
-    padding: 20px;
-    width: 80%;
-    margin-bottom: auto;
-    margin-top: auto;
-    object-fit:cover ;
-    border: 3px solid black
-
-}
-
-.cartecontacternouus{
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.215);
-    border-radius: 20px;
-    padding: 25px;
-    width: 30%;
-    margin-bottom: auto;
-    margin-top: auto;
-    object-fit:cover ;
-    border: 3px solid black
-
+  border-radius: 20px;
+  padding: 20px;
+  width: 60px;
+  object-fit: cover;
+  border: 3px solid black
 }
-.cartesuivernous{
-   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.215);
-    border-radius: 20px;
-    padding: 25px;
-    width: 20%;
-    margin-bottom: auto;
-    margin-top: auto;
-    object-fit:cover ;
-    border: 3px solid black
 
+/*carte histoire*/
+.car {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.215);
+  border-radius: 20px;
+  padding: 20px;
+  width: 80%;
+  margin-bottom: auto;
+  margin-top: auto;
+  object-fit: cover;
+  border: 3px solid black
 }
-.cartetitrebutton{
-   box-shadow: 5px 5px 10px rgba(72, 61, 61, 0.215);
-    border-radius: 20px;
-    padding: 25px;
-    width: 30%;
-    margin-bottom: auto;
-    margin-top: auto;
-    object-fit:cover ;
-    border: 3px solid black
 
-   
+.cartecontacternouus {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.215);
+  border-radius: 20px;
+  padding: 25px;
+  width: 30%;
+  margin-bottom: auto;
+  margin-top: auto;
+  object-fit: cover;
+  border: 3px solid black
 }
-.img{
+
+.cartesuivernous {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.215);
+  border-radius: 20px;
+  padding: 25px;
+  width: 20%;
+  margin-bottom: auto;
+  margin-top: auto;
+  object-fit: cover;
+  border: 3px solid black
+}
+
+.cartetitrebutton {
+  box-shadow: 5px 5px 10px rgba(72, 61, 61, 0.215);
+  border-radius: 20px;
+  padding: 25px;
+  width: 30%;
+  margin-bottom: auto;
+  margin-top: auto;
+  object-fit: cover;
+  border: 3px solid black
+}
+
+.img {
   width: 33%;
   border-radius: 10px;
 }
-.liste-puce{
+
+.liste-puce {
   list-style-type: none;
 }
 
 /*fotter*/
 
 .btn {
-    background-color: rgb(70, 37, 2);
-    color: white;
-    padding: 5px 15px;
-    display: inline-block;
-    text-decoration: none;
-    font-weight: 500;
-    border-radius: 10px;
-    
-}
-footer{
-    background-color: rgb(173, 132, 88);
-    width: 100%;
-    
-    
-    padding: 5px 15px ;
+  background-color: rgb(70, 37, 2);
+  color: white;
+  padding: 5px 15px;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 10px;
 
-    
-    margin-top: 100px;
-   
 }
 
+footer {
+  background-color: rgb(173, 132, 88);
+  width: 100%;
 
 
+  padding: 5px 15px;
 
 
+  margin-top: 100px;
+
+}
